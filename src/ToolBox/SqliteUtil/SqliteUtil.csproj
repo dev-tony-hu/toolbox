@@ -4,7 +4,12 @@
 	<VersionPrefix>0.0.0.1</VersionPrefix>
 	<AssemblyName>ToolBox.SqliteUtil</AssemblyName>
   </PropertyGroup>
-
+	<PropertyGroup>
+		<PackageLicenseFile>..\..\..\LICENSE</PackageLicenseFile>
+		<Authors>Tony Hu</Authors>
+		<Description>Tony Hu ToolBox Components</Description>
+		<PackageProjectUrl>https://github.com/tony19890705/toolbox</PackageProjectUrl>
+	</PropertyGroup>
   <ItemGroup>
 	<PackageReference Include="System.Data.SQLite.Core" Version="1.0.115.5" />
 	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />

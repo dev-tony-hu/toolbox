@@ -4,6 +4,12 @@
 		<Version>0.0.0.1</Version>
 		<AssemblyName>ToolBox.AzureTableUtil</AssemblyName>
 	</PropertyGroup>
+	<PropertyGroup>
+		<PackageLicenseFile>..\..\..\LICENSE</PackageLicenseFile>
+		<Authors>Tony Hu</Authors>
+		<Description>Tony Hu ToolBox Components</Description>
+		<PackageProjectUrl>https://github.com/tony19890705/toolbox</PackageProjectUrl>
+	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Azure.Data.Tables" Version="12.5.0" />
 		<PackageReference Include="Azure.Identity" Version="1.6.0" />
