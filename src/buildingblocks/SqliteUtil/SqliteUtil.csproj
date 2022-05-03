@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFrameworks>net6.0</TargetFrameworks>
+	<VersionPrefix>0.0.0.1</VersionPrefix>
+	<AssemblyName>ToolBox.SqliteUtil</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="System.Data.SQLite.Core" Version="1.0.115.5" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

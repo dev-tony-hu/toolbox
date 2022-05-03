@@ -1,0 +1,11 @@
+﻿global using Azure.Data.Tables;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Reflection;
+global using Azure.Core;
+global using Azure.Identity;
+global using System.Runtime.CompilerServices;
+global using System.Threading;
+global using Azure;
+global using System.Threading.Tasks;
